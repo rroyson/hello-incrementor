@@ -4,7 +4,7 @@ import Hello from './hello'
 
 export default props => {
   return (
-    <div className="pa1 bg-blue white f6 fw1 i link avenir">
+    <div className="pa1 bg-blue ml1 white f6 fw1 i link avenir">
       <a className="link" href="https://github.com/rroyson">
         DOPE APPS!!
       </a>

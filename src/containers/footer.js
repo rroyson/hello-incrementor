@@ -5,7 +5,7 @@ export default props => {
   return (
     <div>
       <a
-        className="pa2 bg-black white f6 fw1 i link avenir"
+        className="dim pa2 bg-black white f6 fw1 i link avenir"
         href="https://github.com/rroyson"
       >
         Rob Royson
