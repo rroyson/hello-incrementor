@@ -4,18 +4,13 @@ import Title from '../components/title'
 import Footer from '../containers/footer'
 import Header from '../containers/header'
 
-const Home = props => {
-  return (
-    <div className="bold">
-      <Header />
-      <Nav />
-      <Title>Home</Title>
+const About = props =>
+  <div className="bold">
+    <Header />
+    <Nav />
+    <Title>About</Title>
+    <Footer />
 
-      <Footer />
+  </div>
 
-
-    </div>
-  )
-}
-
-export default Home
+export default About

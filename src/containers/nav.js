@@ -4,9 +4,12 @@ import { Link } from 'react-router-dom'
 export default props => {
   //run some other code here
   return (
-    <div>
-      <Link to="/">Home</Link>
+    <div className="avenir bg-gray pa2 fw6">
+      <Link className="mr2 white" to="/">Home</Link>
 
+      <Link className="mr2 white" to="/about">About</Link>
+
+      <Link className="mr2 white" to="/incrementor">Incrementor</Link>
     </div>
   )
 }

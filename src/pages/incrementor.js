@@ -4,18 +4,16 @@ import Title from '../components/title'
 import Footer from '../containers/footer'
 import Header from '../containers/header'
 
-const Home = props => {
+
+const Incrementor = props => {
   return (
     <div className="bold">
       <Header />
       <Nav />
-      <Title>Home</Title>
-
+      <Title>Incrementor</Title>
       <Footer />
-
-
     </div>
   )
 }
 
-export default Home
+export default Incrementor
