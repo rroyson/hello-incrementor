@@ -35,7 +35,7 @@ class Incr extends React.Component {
   render() {
     console.log(`RENDER! ${JSON.stringify(this.state, null, 2)}`)
     return (
-      <div className="pb4 pt1 bg-washed-green avenir">
+      <div className="pb4 tc pt1 bg-washed-green avenir">
         <h1>Total: {this.state.total}</h1>
         <h2>Odd : {this.state.isOdd === 1 ? 'True' : 'False'}</h2>
         <button
