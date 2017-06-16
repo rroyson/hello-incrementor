@@ -59,4 +59,10 @@ class Incr extends React.Component {
   }
 }
 
+Incr.propTypes = {
+  initialValue: PropTypes.number.isRequired,
+  incrementer: PropTypes.number.isRequired,
+  decrementor: PropTypes.number.isRequired
+}
+
 export default Incr

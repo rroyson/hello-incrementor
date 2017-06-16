@@ -8,7 +8,9 @@ class Cowbell extends React.Component {
     this.handleCowbellHit = this.handleCowbellHit.bind(this)
   }
 
-  handleCowbellHit() {
+  handleCowbellHit(e) {
+    console.log('e.target', e.target)
+
     this.setState(prevState => ({ noise: prevState.noise + 'doink ' }))
   }
 
@@ -20,6 +22,7 @@ class Cowbell extends React.Component {
         <ul className="list pl0 mt0 measure center">
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img
+              alt="Bruce Dickenson"
               className="w2 h2 w3-ns h3-ns br-100"
               src="http://wwwcdn.goldminemag.com/wp-content/uploads/WillFerrell_MoreCowbell.jpg"
             />
