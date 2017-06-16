@@ -1,10 +1,12 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class Incr extends React.Component {
   constructor(props) {
     super(props)
     console.log('Im Alive. initializing state to 0')
     this.state = { total: 0, isOdd: 0 }
+
     this.incrementCount = this.incrementCount.bind(this)
     this.decrementCount = this.decrementCount.bind(this)
   }
