@@ -10,6 +10,11 @@ export default props => {
       <Link className="mr2 white" to="/about">About</Link>
 
       <Link className="mr2 white" to="/incrementor">Incrementor</Link>
+
+      <Link className="mr2 white" to="/medications">Medications</Link>
+
+      <Link className="mr2 white" to="/moviesearch">Movies</Link>
+
     </div>
   )
 }

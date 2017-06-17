@@ -7,7 +7,7 @@ export default props => {
       <a className="link" href="https://github.com/rroyson">
         DOPE APPS!!
       </a>
-      <Hello firstName="Pate" />
+      <Hello firstName="Rob" />
     </div>
   )
 }

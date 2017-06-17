@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom'
 import Home from './pages/home'
 import About from './pages/about'
 import Incrementor from './pages/incrementor'
+import Medications from './pages/medications'
 
 import './App.css'
 
@@ -15,6 +16,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/incrementor" component={Incrementor} />
+          <Route path="/medications" component={Medications} />
         </div>
       </BrowserRouter>
     )
